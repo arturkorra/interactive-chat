@@ -10,7 +10,10 @@ import com.example.interactive.chat.exception.CustomErrors;
 import com.example.interactive.chat.model.User;
 import com.example.interactive.chat.repository.UserRepository;
 import com.example.interactive.chat.service.UserService;
-
+/**
+*
+* @author Artur Korra
+*/
 @Service
 public class UserServiceImpl implements UserService {
 	@Autowired

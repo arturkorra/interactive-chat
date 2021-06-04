@@ -23,7 +23,10 @@ import com.example.interactive.chat.exception.ApiServiceException;
 import com.example.interactive.chat.service.MessageService;
 
 import io.swagger.annotations.ApiParam;
-
+/**
+*
+* @author Artur Korra
+*/
 @CrossOrigin
 @RestController
 @RequestMapping("/message")

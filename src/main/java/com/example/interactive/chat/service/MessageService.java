@@ -4,7 +4,10 @@ import java.util.List;
 
 import com.example.interactive.chat.api.json.MsgObj;
 import com.example.interactive.chat.exception.ApiServiceException;
-
+/**
+*
+* @author Artur Korra
+*/
 public interface MessageService {
 
 	List<MsgObj> getUnseenMessageByUserId(String userID) throws ApiServiceException;

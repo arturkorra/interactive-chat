@@ -1,10 +1,10 @@
 package com.example.interactive.chat.exception;
-
+/**
+*
+* @author Artur Korra
+*/
 public class ApiServiceException extends Exception {
-
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = -4067958352111999594L;
 	private final Integer code;
 

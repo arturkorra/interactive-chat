@@ -7,7 +7,10 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import com.example.interactive.chat.api.json.ErrorObj;
 import com.example.interactive.chat.exception.ApiServiceException;
-
+/**
+*
+* @author Artur Korra
+*/
 @RestControllerAdvice
 public class CustomErrorController {
 

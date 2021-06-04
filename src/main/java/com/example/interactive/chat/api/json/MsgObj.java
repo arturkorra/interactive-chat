@@ -18,8 +18,8 @@ public class MsgObj {
 	@Size(min = 2, max = 100, message = "The userID must be between {min} and {max} characters long")
 	private String userID;
 
-	@ApiModelProperty(value = "UserID")
-	@Size(min = 2, max = 100, message = "The userID must be between {min} and {max} characters long")
+	@ApiModelProperty(value = "MsgID")
+	@Size(min = 2, max = 100, message = "The msgID must be between {min} and {max} characters long")
 	private String msgID;
 
 	@NotNull(message = "MSG IS NULL")

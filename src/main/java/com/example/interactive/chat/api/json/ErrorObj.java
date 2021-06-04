@@ -5,7 +5,10 @@ import java.util.Map;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-
+/**
+*
+* @author Artur Korra
+*/
 @ApiModel(description = "Output Json containing error informations")
 public class ErrorObj implements Serializable {
 

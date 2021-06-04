@@ -15,7 +15,10 @@ import com.example.interactive.chat.model.User;
 import com.example.interactive.chat.repository.MessageRepository;
 import com.example.interactive.chat.repository.UserRepository;
 import com.example.interactive.chat.service.MessageService;
-
+/**
+*
+* @author Artur Korra
+*/
 @Service
 public class MessageServiceImpl implements MessageService {
 	@Autowired
