@@ -14,10 +14,11 @@ import javax.persistence.Table;
 import org.hibernate.annotations.GenericGenerator;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+
 /**
-*
-* @author Artur Korra
-*/
+ *
+ * @author Artur Korra
+ */
 @Entity
 @Table
 public class User {

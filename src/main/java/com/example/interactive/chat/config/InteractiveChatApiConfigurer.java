@@ -32,10 +32,11 @@ import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
 /**
-*
-* @author Artur Korra
-*/
+ *
+ * @author Artur Korra
+ */
 @Configuration
 @EnableScheduling
 @EnableTransactionManagement
