@@ -1,6 +1,6 @@
 # interactive-chat
 interactive-chat
-# Swager URL
+# Swagger URL
 * http://localhost:8080/interactive-chat/swagger-ui.html#/
 # API BASE URL
 * http://localhost:8080/interactive-chat/
